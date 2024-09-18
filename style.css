@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(to right, #868F96, #596164);
+
+
+}
+
+.motherSquare {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+
+}
+
+.motherSquare>div:first-child {
+    margin: 0;
+}
+
+
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(236, 36, 200);
+    border-radius: 10px;
+    margin-left: 10px;
+
+    border: 2px solid black;
+    transition: all 0.1s ease-out;
+    transition-duration: 0.1s;
+
+
+
+}
+
+.square:hover {
+    scale: 1.3;
+    box-shadow: 1px 8px 40px 20px #0ff;
+
+    cursor: pointer;
+
+}
